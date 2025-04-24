@@ -1,5 +1,5 @@
-import checkHealthStatus from '../Domain/health-status.js'
-import sortHealth from '../Domain/sort-health.js'
+import checkHealthStatus from '../Domain/health-status.js';
+import sortHealth from '../Domain/sort-health.js';
 describe('checkHealthStatus', () => {
     it('returns "healthy" when health 50', () => {
       expect(checkHealthStatus({ health: 80 })).toEqual('healthy');
