@@ -1,18 +1,15 @@
 module.exports = {
-    'env': {
-      'browser': true,
-      'es2021': true,
-      'node': true,
-      "jest": true
-    },
-    'extends': 'eslint:recommended',
-    'overrides': [],
-    'parserOptions': {
-      'ecmaVersion': 'latest',
-      'sourceType': 'module'
-    },
-    'rules': {
-        'semi': 'error',
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+    jest: true 
+  },
+  parser: '@babel/eslint-parser',
+  plugins: ['jest'],
+  rules: {
+    'semi': 'error',
         'no-unused-vars': 'off',
-    }
-  };
+      }
+};
+  
