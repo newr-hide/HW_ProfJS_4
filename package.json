@@ -1,0 +1,33 @@
+{
+  "name": "hw_profjs_4",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/newr-hide/HW_ProfJS_4#readme",
+  "bugs": {
+    "url": "https://github.com/newr-hide/HW_ProfJS_4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newr-hide/HW_ProfJS_4.git"
+  },
+  "license": "ISC",
+  "author": "",
+  
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin": "^1.0.1",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0"
+  }
+}
