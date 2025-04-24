@@ -5,6 +5,9 @@ module.exports = {
     node: true,
     jest: true 
   },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
   parser: '@babel/eslint-parser',
   plugins: ['jest'],
   rules: {
